@@ -20,7 +20,7 @@ game/presentation.rpy 标题、暂停菜单、书页、对话框和立绘站位�
 图片、配音和音乐均随项目附带。替换美术或音频时可沿用原来的文件名。此版使用原生 Ren’Py 台词，运行和改词都不需要额外的 Python 包或数据转换步骤。
 
 占位资源
-配乐由 FluidSynth 和 TimGM6mb（Tim Brechbill、David Bolton）渲染；三个音效为合成音。日语对白使用 VOICEVOX 配音。思源宋体 Noto Serif CJK 简体中文字体的授权见 game/fonts/LICENSE.txt。
+配乐由 FluidSynth 和 TimGM6mb（Tim Brechbill、David Bolton）渲染；翻页（bookFlip1）、合书（bookClose）和落锁（metalLatch）取自 Kenney 的 RPG Audio（CC0），https://kenney.nl/assets/rpg-audio 。日语对白使用 VOICEVOX 配音。思源宋体 Noto Serif CJK 简体中文字体的授权见 game/fonts/LICENSE.txt。
 
 日语配音（VOICEVOX）
 菠萝：VOICEVOX:離途（ノーマル）
