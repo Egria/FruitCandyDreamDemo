@@ -1,0 +1,57 @@
+2026-11-25 20:56:51 UTC
+Windows-11-10.0.26300-SP0
+Ren'Py 8.6.1.26111705
+
+Early init took 27 ms
+Loading error handling took 16 ms
+Loading script took 356 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 5 ms
+Running init code took 44 ms
+Loading analysis data took 0 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 1 ms
+Backing up script files to 'C:\\Users\\ned1_\\AppData\\Roaming/RenPy/backups\\FruitCandyDreamDemo':
+Dump and make backups took 23 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 18 ms
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 113 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+While loading screen cache bytecode.
+Traceback (most recent call last):
+  File "C:\Program Files\renpy-8.6.1-sdk\renpy\sl2\slast.py", line 2789, in load_cache
+    with renpy.loader.load(CACHE_FILENAME) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\renpy-8.6.1-sdk\renpy\loader.py", line 759, in load
+    raise FileNotFoundError("Couldn't find file '%s'." % name)
+FileNotFoundError: Couldn't find file 'cache/screens.rpyb'.
+Load screen analysis took 1 ms
+Analyze screens took 9 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 1 ms
+Save bytecode took 14 ms
+Running _start took 0 ms
+Interface start took 200 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Requesting OpenGL 3.3.
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 5090/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 617.42'
+Shading language version: '4.60 NVIDIA'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 3840, 'current_h': 2160, 'refresh_rate': 60.0, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Emitting shaders as GLSL 330.
+Screen sizes: virtual=(1280, 720) physical=(1600, 900) drawable=(1600, 900)
+Maximum texture size: 4096x4096
+Could not open 'cache/shaders.txt':
+Cleaning stores took 0 ms
+Load screen analysis took 3 ms
+Analyze screens took 0 ms
+Running _start took 1 ms
